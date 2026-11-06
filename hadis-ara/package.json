@@ -1,0 +1,24 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "hadis-ara",
+  "title": "Hadis Ara",
+  "description": "el-Minassatü'l-hadîsiyye'de (alminasa.ai) hadis arar; senet, metin, râvîler ve hükümleri gösterir, İSNAD 2'ye göre atıf kopyalar.",
+  "icon": "icon.png",
+  "author": "fikhiefendi",
+  "license": "MIT",
+  "platforms": ["macOS"],
+  "categories": ["Productivity", "Documentation"],
+  "commands": [
+    {
+      "name": "search",
+      "title": "Hadis Ara",
+      "subtitle": "el-Minassatü'l-hadîsiyye",
+      "description": "Kütüb-i Sitte ve diğer hadis kaynaklarında ara, İSNAD 2 atfı kopyala.",
+      "keywords": ["hadis", "hadith", "minasa", "buhari", "müslim", "sünen", "isnad", "atıf"],
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.80.0"
+  }
+}
